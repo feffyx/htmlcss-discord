@@ -3,32 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 header {
     background-color: #255ee9;
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
 }
-
+ 
 .logo {
     padding-left: 60px;
 }
-
+ 
 .info-section {
     background-image: url(/img/jumbo.png);
     height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+ 
 .info-container {
     display: flex;
     flex-direction: column;
     color: white;
 }
-
+ 
 .accedi_btn {
     background-color: white;
     border: 1px white solid;
@@ -36,44 +39,65 @@ header {
     padding: 2px 10px;
     font-size: 16px;
 }
-
+ 
 .btn {
     border-radius: 30px;
     margin-left: 16px;
 }
-
+ 
 .text-center {
     display: flex;
     justify-content: space-between;
     justify-content: center;
     gap: 40px;
 }
-
+main {
+}
+ 
 .col-4 {
     margin-top: 35px;
 }
-
+ 
 .col-10 {
     margin-top: 40px;
 }
-
+ 
 .col-6 {
     margin-top: 10px;
 }
-
+ 
 .downloading-btn {
     background-image: url(/img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 600px;
 }
-
+ 
 .download-btn {
     background-color: #7289da;
     margin-bottom: 100px;
 }
-
+ 
 footer {
     display: flex;
-    justify-content: column;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-between;
+    background-color: #23272a;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
 }
+ 
+.it-flag {
+    width: 30px;
+}
+ 
+.footer-title {
+    color: #7289da;
+}
+ 
+.col-2 {
+    align-items: center;
+}
+ 
